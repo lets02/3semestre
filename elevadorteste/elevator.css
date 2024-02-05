@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.elevators-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.elevator {
+  width: 80px;
+  height: 400px;
+  background-color: #3498db;
+  margin: 0 10px;
+  position: relative;
+}
+
+.floor-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #2ecc71;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #27ae60;
+}
